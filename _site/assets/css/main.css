@@ -1,6 +1,8 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat + Alternates|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Fredericka + the + Great|Josefin + Slab|Antic + Slab);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
 button,
 hr,
 input {
@@ -3758,7 +3760,7 @@ sup {
     }
 }
 #particles-js {
-    background: #1a222c;
+    background: #060a10;
     display: flex;
     vertical-align: bottom;
     min-height: 100vh;
@@ -3770,7 +3772,7 @@ sup {
     height: 100vh !important;
 }
 .header {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Inter';
     z-index: 1;
     text-align: center;
     color: #fff;
@@ -3786,23 +3788,26 @@ sup {
     display: block;
     line-height: 1;
     color: #fff;
+    opacity: 90%;
 }
 @media only screen and (min-width: 768px) {
     .header .site-title {
         margin: 0;
-        font-size: 76px;
+        font-size: 40px;
     }
 }
 .header .site-description {
+    font-family:'Inter';
     font-size: 20px;
     display: block;
     line-height: 1;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 25px;
+    opacity: 50%;
 }
 @media only screen and (min-width: 768px) {
     .header .site-description {
-        font-size: 34px;
+        font-size: 25px;
     }
 }
 .header-links {
@@ -3913,6 +3918,7 @@ sup {
 .user-details h1,
 body {
     font-weight: 400;
+    background-color: #060a10;
 }
 .user {
     text-align: center;
@@ -3936,9 +3942,10 @@ body {
     margin: 5px auto;
 }
 .footer {
-    background: #1a222c;
-    padding: 10px 0;
-    margin-top: 100px;
+    font-family: 'Inter';
+    background: #060a10;
+    padding: 0px 0;
+    margin-top: -58px;
     text-align: center;
     color: #fff;
 }
