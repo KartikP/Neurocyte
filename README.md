@@ -1,1 +1,1 @@
-Neurocyte Landing Page
+Neurocyte landing page
