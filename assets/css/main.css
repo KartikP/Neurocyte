@@ -5401,7 +5401,7 @@ th {
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
-    text-transform: none;
+    text-transform: uppercase;
     outline: none;
 }
 .nav-menu .menu-active a {
