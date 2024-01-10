@@ -5337,7 +5337,7 @@ th {
 .nav-menu,
 .nav-menu * {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     list-style: none;
 }
 .nav-menu ul {
@@ -5393,6 +5393,7 @@ th {
         display: none;
     }
 }
+/*THIS IS ALSO FOR NAV MENU*/
 .nav-menu a {
     padding: 0 8px 0px 8px;
     text-decoration: none;
@@ -5624,7 +5625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .nav-menu,
 .nav-menu * {
     margin: 0;
-    padding: 0;
+    padding: 20;
     list-style: none;
 }
 .nav-menu ul {
@@ -5910,10 +5911,11 @@ body.mobile-nav-active #mobile-nav-toggle {
         max-height: 40px;
     }
 }
+/*This is the actual nav menu*/
 .nav-menu,
 .nav-menu * {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style: none;
 }
 .nav-menu ul {
