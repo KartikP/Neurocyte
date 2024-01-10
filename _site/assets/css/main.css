@@ -5333,6 +5333,7 @@ th {
         max-height: 40px;
     }
 }
+
 .nav-menu,
 .nav-menu * {
     margin: 0;
@@ -5396,8 +5397,8 @@ th {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     color: #ffffff;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 14px;
     text-transform: none;
     outline: none;
 }

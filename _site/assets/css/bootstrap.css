@@ -568,7 +568,7 @@ progress {
 
 .initialism {
   font-size: 0.875em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .blockquote {
@@ -3874,7 +3874,7 @@ textarea.form-control-lg {
   list-style: none;
 }
 
-.nav-wrap {
+.nav-menu {
   padding: 25px;
 }
 
