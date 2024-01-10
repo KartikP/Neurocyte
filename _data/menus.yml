@@ -1,0 +1,22 @@
+header:
+  - name: 'about'
+    title: 'About'
+    link: '/'
+
+  - name: 'home'
+    title: 'Home'
+    link: '/'  
+
+  - name: 'resources'
+    title: 'Resources'
+    link: '/'
+  
+  - name: 'team'
+    title: 'Team'
+    link: '/'
+
+
+  - name: 'contact'
+    title: 'Contact'
+    link: '/'
+
