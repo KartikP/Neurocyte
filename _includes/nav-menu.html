@@ -1,18 +1,11 @@
-{%- assign logo1 = 'assets/white.svg' -%}
-{%- assign logo2 = 'assets/white.svg' -%}
+{%- assign logo1 = 'assets/white_text.svg' -%}
 
 <!-- start Header Area -->
-<header id="header2" >
         <div class="nav-wrap d-flex flex-row align-items-center">
-            <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                <a href="{{ '/' | relative_url }}">
-                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
-                </a>
-                <a href="{{ '/' | relative_url }}">
-                    <img class="logo-2" src="{{ logo2 | relative_url }}" alt="" title="" />
-                </a>
-            </div>
             <nav id="nav-menu-container">
+                <a href="{{ '/' | relative_url }}">
+                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="Neurocyte Logo"/>
+                </a>
                 <ul class="nav-menu px-3 nav-menu2 sf-js-enabled sf-arrows">
                     {%- for menu in site.data.menus.header -%}
                     {%- if menu.menu-has-children -%} 
@@ -37,6 +30,5 @@
                 </ul>
             </nav>
         </div>
-</header>
 <!-- #nav-menu-container -->
 
