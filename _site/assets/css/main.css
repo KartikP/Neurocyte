@@ -5971,6 +5971,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #nav-menu-container {
     margin: 0;
+    padding-left: 25px;
 }
 @media (max-width: 768px) {
     #nav-menu-container {
