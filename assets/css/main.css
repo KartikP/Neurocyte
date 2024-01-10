@@ -5294,9 +5294,11 @@ th {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
 }
 #header.header-scrolled #logo .logo-1 {
+    size: 10%;
     display: none;
 }
 #header.header-scrolled #logo .logo-2 {
+    size: 10%;
     display: inline-block;
 }
 #header.header-scrolled .nav-menu > a {
@@ -5393,13 +5395,12 @@ th {
         display: none;
     }
 }
-/*THIS IS ALSO FOR NAV MENU*/
 .nav-menu a {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: none;
     outline: none;
 }
@@ -5583,9 +5584,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
 }
 #header2.header-scrolled #logo .logo-1 {
+    width: 10%;
     display: none;
 }
 #header2.header-scrolled #logo .logo-2 {
+    width: 10%;
     display: inline-block;
 }
 #header2.header-scrolled .nav-menu > a {
@@ -5605,13 +5608,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 4px solid #7b10ff;
 }
 #header2 #logo .logo-1 {
-    padding: 0;
+    padding: 100;
     margin: 0;
-    width: 80%;
+    margin-top: 15px;
+    margin-left: -30px;
+    width: 10%;
     display: inline-block;
 }
 #header2 #logo .logo-2 {
-    width: 80%;
+    width: 10%;
     display: none;
 }
 @media (max-width: 768px) {
@@ -5681,11 +5686,12 @@ body.mobile-nav-active #mobile-nav-toggle {
         display: none;
     }
 }
+/*THIS IS ALSO FOR NAV MENU*/
 #header2 .nav-menu2 > li > a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: none;
     outline: none;
 }
