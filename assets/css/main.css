@@ -104,6 +104,7 @@ audio:not([controls]) {
 }
 img {
     border-style: none;
+    image-rendering: auto;
 }
 svg:not(:root) {
     overflow: hidden;
@@ -198,6 +199,16 @@ template {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.fa-float {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .fa-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
@@ -4706,10 +4717,17 @@ th {
 .genric-btn2,
 .genric-btn:hover,
 .gradient-bg {
-    background-image: -moz-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
-    background-image: -webkit-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
-    background-image: -ms-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
+    background-image: -moz-linear-gradient(110deg, #060a10 0%, #060a10 100%);
+    background-image: -webkit-linear-gradient(110deg, #060a10 0%, #060a10 100%);
+    background-image: -ms-linear-gradient(110deg, #060a10 0%, #060a10 100%);
 }
+
+.d1-gradient-bg-collab {
+    background-image: -moz-linear-gradient(110deg, #f2f5fa 0%, #f2f5fa 100%);
+    background-image: -webkit-linear-gradient(110deg, #f2f5fa 0%, #f2f5fa 100%);
+    background-image: -ms-linear-gradient(110deg, #f2f5fa 0%, #f2f5fa 100%);
+}
+
 .d2-gradient-bg,
 .version3 .ct-btn.active:hover,
 .version3 .ct-btn,
@@ -5233,6 +5251,12 @@ th {
 .stat-section .section-title-wrap {
     margin-bottom: 20px;
 }
+
+.section-title-wrap-collab {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .single-stat {
     margin-top: 60px;
 }
@@ -7396,6 +7420,22 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-right: auto;
     }
 }
+
+.brands-section img {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.brands-section img:hover {
+    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 .version1 .brands-section img {
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
