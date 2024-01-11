@@ -6111,7 +6111,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #mobile-nav {
     position: fixed;
     top: 0;
-    padding-top: 18px;
+    padding-top: 30px;
     bottom: 0;
     z-index: 998;
     background: rgba(0, 0, 0, 0.8);
@@ -6122,6 +6122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #mobile-nav ul {
     padding: 0;
+    padding-top: 20px;
     margin: 0;
     list-style: none;
 }
@@ -6130,7 +6131,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #mobile-nav ul li a {
     color: #fff;
-    font-size: 13px;
+    font-size: 20px;
     text-transform: none;
     overflow: hidden;
     padding: 10px 22px 10px 15px;
