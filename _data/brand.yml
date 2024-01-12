@@ -1,0 +1,10 @@
+title: 'Our Collaborators'
+description: 
+image: #'img/title-icon.png'
+
+collaborators:
+- image: 'assets/brands/UWO.png'
+  link: '#'
+
+- image: 'assets/brands/UofT.png'
+  link: '#'

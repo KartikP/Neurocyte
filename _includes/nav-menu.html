@@ -3,9 +3,7 @@
 <!-- start Header Area -->
         <div class="nav-wrap d-flex flex-row align-items-center">
             <nav id="nav-menu-container">
-                <a href="{{ '/' | relative_url }}">
-                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="Neurocyte Logo"/>
-                </a>
+                <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="Neurocyte Logo"/>
                 <ul class="nav-menu px-3 nav-menu2 sf-js-enabled sf-arrows">
                     {%- for menu in site.data.menus.header -%}
                     {%- if menu.menu-has-children -%} 

@@ -1,0 +1,19 @@
+title: 'What we offer'
+description: 
+
+
+####################################
+######  feature Section   ######
+####################################
+features:
+- image: 'assets/icons/neuron.png'
+  title: 'MEA recordings'
+  description: 'Functionally phenotype your in vitro models.'
+
+- image: 'assets/icons/machine-learning.png'
+  title: 'MEA analytics        '
+  description: 'Our experts can assist your data analysis.'
+
+- image: 'assets/icons/observation.png'
+  title: 'End-to-end services'
+  description: 'We''ll generate your own disease-in-dish model.'
