@@ -3803,7 +3803,8 @@ sup {
     transform: translate(-50%, -50%);
 }
 .header .site-title {
-    font-size: 40px;
+    font-size: 1em;
+    font-weight: 750;
     display: block;
     line-height: 1;
     color: #fff;
@@ -3812,7 +3813,8 @@ sup {
 @media only screen and (min-width: 768px) {
     .header .site-title {
         margin: 0;
-        font-size: 50px;
+        font-weight: 900;
+        font-size: 1.25em;
     }
 }
 .header .site-description {
@@ -3913,10 +3915,14 @@ sup {
 .footer a:hover {
     color: #4b5664;
 }
+
 #about {
     font-size: 120%;
     width: 90%;
-    margin: 0 auto;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    margin-left: auto; 
+    margin-right: auto;
     max-width: 960px;
 }
 @media only screen and (min-width: 768px) {
@@ -4655,6 +4661,11 @@ th {
         padding: 60px 0px;
     }
 }
+
+#unique-feature {
+    font-size: 1.25em;
+}
+
 .overlay {
     position: absolute;
     left: 0;
@@ -7386,6 +7397,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-title-wrap-offer {
     text-align: center;
+    margin-bottom:100px;
 }
 
 #offer-title {
@@ -7394,7 +7406,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .offer-title {
-    margin-top: 10px;
+    margin-top: -150px;/*0px;*/
+    padding-bottom:-500px;
 }
 
 .offer-title h1 {
@@ -7408,7 +7421,6 @@ body.mobile-nav-active #mobile-nav-toggle {
       font-size: 36px;
     }
   }
-  
 
 .feature-list {
     margin-bottom: 30px;
@@ -9679,5 +9691,3 @@ dl.accordion.time-line:before {
     left: 6px;
     right: 6px;
 }
-
-
